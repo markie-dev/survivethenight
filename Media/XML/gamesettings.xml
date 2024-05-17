@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+
+<!-- Game settings -->
+
+<settings>
+  <game name="Survive the Night" />
+  <renderer width="1920" height="1080"/>
+   
+  <font file="Media\Fonts\PixelEmulator_18.spritefont"/>
+
+  <!-- sprites -->
+   
+  <sprites path="Media\Images">
+    <sprite name="tile" file="tile" ext ="png" frames="8"/>
+    <sprite name="player" file="player.png"/>
+    <sprite name="turret" file="turret.png"/>
+    <sprite name="bullet" file="bullet.png"/>
+    <sprite name="bullet2" file="bullet2.png"/>
+    <sprite name="smoke" file="graysmoke.png"/>
+    <sprite name="spark" file="spark.png"/>
+    <sprite name="greenline" file="greenline.png"/>
+    <sprite name="activity" file="activity.png"/>
+    <sprite name="house" file="house.png"/>
+    <sprite name="tree" file="tree.png"/>
+    <sprite name="title" file="title.png"/>
+	<sprite name="healthbar" file="healthbar.png"/>
+	<sprite name="healthbar80" file="healthbar80.png"/>
+	<sprite name="healthbar60" file="healthbar60.png"/>
+	<sprite name="healthbar40" file="healthbar40.png"/>
+	<sprite name="healthbar20" file="healthbar20.png"/>
+	<sprite name="healthbar0" file="healthbar0.png"/>
+	<sprite name="player2" file="player2.png"/>
+	<sprite name="turret2" file="turret2.png"/>
+	<sprite name="frame" file="frame.png"/>
+	<sprite name="sun" file="sun.png"/>
+	<sprite name="moon" file="moon.png"/>
+	<sprite name="corn" file="corn.png"/>
+	<sprite name="halfcorn" file="halfcorn.png"/>
+	<sprite name="zombie2" file="zombie2.png"/>
+	<sprite name="battery" file="battery.png"/>
+	<sprite name="shop" file="weaponshop.png"/>
+	<sprite name="progressframe" file="progressframe.png"/>
+	<sprite name="percent" file="percent.png"/>
+	<sprite name="messageframe" file="messageframe.png"/>
+	<sprite name="background" file="background.png"/>
+	<sprite name="nightfarm" file="nightfarm.png"/>
+	<sprite name="maxfood" file="maxfood.png"/>
+	<sprite name="logicBoard" file="logicBoard.png"/>
+	<sprite name="antenna" file="antenna.png"/>
+	<sprite name="deadRadio" file="deadRadio.png"/>
+	<sprite name="aliveRadio" file="aliveRadio.png"/>
+	<sprite name="victory" file="victory.png"/>
+	<sprite name="presstofarm" file="presstofarm.png"/>
+	<sprite name="presstoeat" file="presstoeat.png"/>
+	<sprite name="radioparts" file="radioparts.png"/>
+	<sprite name="presstobuild" file="presstobuild.png"/>
+	<sprite name="radio" file="radio.png"/>
+	<sprite name="research" file="researchstation.png"/>
+	<sprite name="presstoleave" file="presstoleave.png"/>
+	<sprite name="escape" file="escape.png"/>
+	<sprite name="playbutton" file="playbutton.png"/>
+	<sprite name="playbutton2" file="playbutton2.png"/>
+	<sprite name="tutorialbutton" file="tutorialbutton.png"/>
+	<sprite name="title2" file="title2.png"/>
+	<sprite name="backbutton" file="backbutton.png"/>
+  </sprites>
+
+  <!-- sound -->
+  
+  <sounds  path="Media\Sounds"> 
+    <sound name="start" file="start.wav" instances="1"/>
+    <sound name="gun" file="44magnum.wav" instances="8"/>
+    <sound name="ricochet" file="ricochet.wav" instances="8"/>
+    <sound name="clang" file="clang.wav" instances="4"/>
+    <sound name="grunt" file="umph.wav" instances="2"/>
+    <sound name="boom" file="boom.wav" instances="4"/>
+  </sounds>
+</settings>

@@ -1,0 +1,5 @@
+.vs/
+project/.vs
+x64/Debug/*
+x64/Release/*
+.vscode/settings.json
